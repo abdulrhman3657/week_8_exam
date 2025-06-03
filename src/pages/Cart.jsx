@@ -54,7 +54,7 @@ function Cart() {
       <div className="flex flex-col gap-5 p-3 bg-white">
         <h1 className="text-3xl font-bold">Shopping Cart</h1>
         <hr />
-        <div className="flex gap-4">
+        <div className="flex flex-col lg:flex-row items-center gap-4">
           <img
             className="w-50 h-50"
             src={productAndQuant.product.image}

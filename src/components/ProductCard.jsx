@@ -5,7 +5,7 @@ function ProductCard(data) {
 
 
   return (  
-    <div className='border w-50 h-110 p-3 flex flex-col items-center justify-between gap-3  bg-white'>
+    <div className='border w-100  lg:w-50 h-110 p-3 flex flex-col items-center justify-between gap-3  bg-white'>
         <img src={data.image} className='w-full h-50' alt="" />
         <h1 className='hover:text-orange-400'>{data.title}</h1>
         <h1>{data.price}</h1>

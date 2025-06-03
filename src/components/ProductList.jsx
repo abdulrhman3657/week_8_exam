@@ -30,7 +30,7 @@ function ProductList() {
 
 
   return (
-    <div className='flex flex-wrap gap-3 p-3 bg-gray-200'>
+    <div className='flex flex-wrap justify-center gap-3 p-3 bg-gray-200'>
         {
             products.map((product) => (
                 <ProductCard

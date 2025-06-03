@@ -49,7 +49,7 @@ const [mobileMenue, setNobliMenue] = useState(false)
             <ul className="font-medium items-center flex text-white flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
               <li className="flex items-center gap-2">
                 <input
-                  className="text-black bg-white lg:w-100 h-10 rounded-xl"
+                  className="text-black bg-white xl:w-100 h-10 rounded-xl"
                   placeholder="   Search Amazon"
                   type="text"
                 />
