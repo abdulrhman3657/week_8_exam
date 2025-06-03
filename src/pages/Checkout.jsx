@@ -18,7 +18,7 @@ function Checkout(data) {
         <h1>Use a gift card, voucher, or promo code</h1>
       </div>
       <div className="bg-white p-5">
-        <div className="flex items-center gap-4">
+        <div className="flex flex-col-reverse lg:flex-row items-center gap-4">
           <button className="bg-amber-300 p-2 rounded-3xl">
             Place your order in SAR
           </button>
